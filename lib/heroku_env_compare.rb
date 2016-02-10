@@ -10,4 +10,10 @@ module HerokuEnvCompare
       (a_keys ^ b_keys).to_a
     end
   end
+
+  class Heroku
+    def self.config(app_name)
+      `heroku config --json -a #{app_name}`
+    end
+  end
 end

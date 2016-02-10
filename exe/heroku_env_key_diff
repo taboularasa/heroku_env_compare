@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require 'heroku_env_compare'
+
+puts HerokuEnvCompare::KeyDiff.compare ARGV[0], ARGV[1]

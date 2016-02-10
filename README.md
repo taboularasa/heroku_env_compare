@@ -1,8 +1,6 @@
 # HerokuEnvCompare
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/heroku_env_compare`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Ever need to see how two heroku app environments are different? This _might_ help you
 
 ## Installation
 
@@ -22,7 +20,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+This gem assumes that you have heroku toolbelt installed and configured
+Given two app names, provided by
+
+`$ heroku list`
+
+use this gem like so:
+
+`$ heroku_env_key_diff <first_app> <second_app>`
+
+This should print out all the environment keys that are not common between the two apps
 
 ## Development
 
@@ -33,4 +40,3 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/heroku_env_compare.
-

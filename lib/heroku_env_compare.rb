@@ -1,5 +1,5 @@
-require "heroku_env_compare/version"
-require "json"
+require 'heroku_env_compare/version'
+require 'json'
 require 'set'
 
 module HerokuEnvCompare

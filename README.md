@@ -20,7 +20,8 @@ Or install it yourself as:
 
 ## Usage
 
-This gem assumes that you have heroku toolbelt installed and configured
+This gem assumes that you have heroku toolbelt installed and configured.
+
 Given two app names, provided by
 
 `$ heroku list`
@@ -39,4 +40,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/heroku_env_compare.
+Bug reports, feature ideas, and pull requests are welcome on GitHub at https://github.com/taboularasa/heroku_env_compare.

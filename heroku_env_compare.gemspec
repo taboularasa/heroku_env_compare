@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["david@philosophie.is"]
 
   spec.summary       = %q{compare heroku env vars}
-  spec.homepage      = "https://philosophie.is"
+  spec.homepage      = "https://github.com/taboularasa/heroku_env_compare"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
